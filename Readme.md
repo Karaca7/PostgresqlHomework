@@ -1,4 +1,4 @@
 ## Postgres Sql lessons
 
-by patika
+by patika sended homework
 Have fun !
