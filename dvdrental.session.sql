@@ -1,1 +1,5 @@
-select  from city;
+
+
+
+SELECT * FROM country
+
