@@ -81,3 +81,16 @@
 -- ALTER TABLE employee ADD COLUMN user_name VARCHAR(50) NOT NULL UNIQUE;
 
 --  
+
+
+
+-- SELECT title , page_number From book  WHERE page_number>(SELECT page_number FROM  book WHERE book_id=12);
+
+
+-- SELECT title , page_number,(SELECT ROUND(AVG( page_number)) FROM book) AS ortalama FROM book;
+
+
+-- SELECT title,page_number FROM book WHERE page_number= ANY (SELECT page_number FROM book WHERE book_id=1 OR book_id=11);
+
+-- SELECT title,page_number FROM book WHERE page_number= ALL (SELECT page_number FROM book WHERE book_id=10 OR book_id=5);
+
